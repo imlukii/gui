@@ -1,0 +1,213 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Setupbank = Instance.new("TextButton")
+local Setupbasket = Instance.new("TextButton")
+local Setuptrain = Instance.new("TextButton")
+local Setupclub = Instance.new("TextButton")
+local Setupadmin = Instance.new("TextButton")
+local Setupsz3 = Instance.new("TextButton")
+local Setupsz2 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+local Infoline = Instance.new("TextLabel")
+local DisplayName = Instance.new("TextLabel")
+local UserId = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(85, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(85, 255, 255)
+Frame.Position = UDim2.new(0.673943341, 0, 0.214702457, 0)
+Frame.Size = UDim2.new(0, 328, 0, 454)
+Frame.Active = true
+Frame.Draggable = true
+
+
+Setupbank.Name = "Setupbank"
+Setupbank.Parent = ScreenGui
+Setupbank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setupbank.Position = UDim2.new(0.68290621, 0, 0.286895365, 0)
+Setupbank.Size = UDim2.new(0, 81, 0, 31)
+Setupbank.Font = Enum.Font.SourceSans
+Setupbank.Text = "Setup bank"
+Setupbank.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setupbank.TextSize = 14.000
+
+Setupbasket.Name = "Setupbasket"
+Setupbasket.Parent = ScreenGui
+Setupbasket.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setupbasket.Position = UDim2.new(0.735533893, 0, 0.324417919, 0)
+Setupbasket.Size = UDim2.new(0, 89, 0, 31)
+Setupbasket.Font = Enum.Font.SourceSans
+Setupbasket.Text = "Setup basket"
+Setupbasket.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setupbasket.TextSize = 14.000
+
+Setuptrain.Name = "Setuptrain"
+Setuptrain.Parent = ScreenGui
+Setuptrain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setuptrain.Position = UDim2.new(0.68290621, 0, 0.324417919, 0)
+Setuptrain.Size = UDim2.new(0, 82, 0, 31)
+Setuptrain.Font = Enum.Font.SourceSans
+Setuptrain.Text = "Setup  train"
+Setuptrain.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setuptrain.TextSize = 14.000
+
+Setupclub.Name = "Setupclub"
+Setupclub.Parent = ScreenGui
+Setupclub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setupclub.Position = UDim2.new(0.792844594, 0, 0.288031727, 0)
+Setupclub.Size = UDim2.new(0, 89, 0, 31)
+Setupclub.Font = Enum.Font.SourceSans
+Setupclub.Text = "Setup club"
+Setupclub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setupclub.TextSize = 14.000
+
+Setupadmin.Name = "Setupadmin"
+Setupadmin.Parent = ScreenGui
+Setupadmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setupadmin.Position = UDim2.new(0.735533893, 0, 0.286895365, 0)
+Setupadmin.Size = UDim2.new(0, 89, 0, 31)
+Setupadmin.Font = Enum.Font.SourceSans
+Setupadmin.Text = "Setup admin"
+Setupadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setupadmin.TextSize = 14.000
+
+Setupsz3.Name = "Setupsz3"
+Setupsz3.Parent = ScreenGui
+Setupsz3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setupsz3.Position = UDim2.new(0.760272443, 0, 0.359606743, 0)
+Setupsz3.Size = UDim2.new(0, 89, 0, 31)
+Setupsz3.Font = Enum.Font.SourceSans
+Setupsz3.Text = "Setup sz3"
+Setupsz3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setupsz3.TextSize = 14.000
+
+Setupsz2.Name = "Setupsz2"
+Setupsz2.Parent = ScreenGui
+Setupsz2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Setupsz2.Position = UDim2.new(0.703823924, 0, 0.359637231, 0)
+Setupsz2.Size = UDim2.new(0, 89, 0, 31)
+Setupsz2.Font = Enum.Font.SourceSans
+Setupsz2.Text = "Setup sz2"
+Setupsz2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Setupsz2.TextSize = 14.000
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(136, 122, 154)
+TextLabel.BorderColor3 = Color3.fromRGB(250, 240, 240)
+TextLabel.Position = UDim2.new(0.673943341, 0, 0.214702457, 0)
+TextLabel.Size = UDim2.new(0, 328, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Setup buttons"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 26.000
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.7928105, 0, 0.324417889, 0)
+TextButton.Size = UDim2.new(0, 89, 0, 31)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Setup sz 1"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+Name.Name = "Name"
+Name.Parent = ScreenGui
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.Position = UDim2.new(0.718745232, 0, 0.586957633, 0)
+Name.Size = UDim2.new(0, 169, 0, 40)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Name"
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextSize = 14.000
+
+Infoline.Name = "Info line"
+Infoline.Parent = ScreenGui
+Infoline.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+Infoline.Position = UDim2.new(0.673943341, 0, 0.421773881, 0)
+Infoline.Size = UDim2.new(0, 328, 0, 31)
+Infoline.Font = Enum.Font.SourceSans
+Infoline.Text = "INFO:"
+Infoline.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infoline.TextSize = 24.000
+
+DisplayName.Name = "DisplayName"
+DisplayName.Parent = ScreenGui
+DisplayName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DisplayName.Position = UDim2.new(0.718745232, 0, 0.530948341, 0)
+DisplayName.Size = UDim2.new(0, 169, 0, 40)
+DisplayName.Font = Enum.Font.SourceSans
+DisplayName.Text = "DisplayName"
+DisplayName.TextColor3 = Color3.fromRGB(0, 0, 0)
+DisplayName.TextSize = 14.000
+
+UserId.Name = "UserId"
+UserId.Parent = ScreenGui
+UserId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserId.Position = UDim2.new(0.718105018, 0, 0.476105869, 0)
+UserId.Size = UDim2.new(0, 170, 0, 40)
+UserId.Font = Enum.Font.SourceSans
+UserId.Text = "UserId"
+UserId.TextColor3 = Color3.fromRGB(0, 0, 0)
+UserId.TextSize = 14.000
+
+-- Scripts:
+
+local function PLTCVRH_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+	
+end
+coroutine.wrap(PLTCVRH_fake_script)()
+local function BEBA_fake_script() -- Name.LocalScript 
+	local script = Instance.new('LocalScript', Name)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(BEBA_fake_script)()
+local function QRRHH_fake_script() -- Infoline.LocalScript 
+	local script = Instance.new('LocalScript', Infoline)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+	
+end
+coroutine.wrap(QRRHH_fake_script)()
+local function YZUKIKX_fake_script() -- DisplayName.LocalScript 
+	local script = Instance.new('LocalScript', DisplayName)
+
+	script.Parent.Text = game.Players.LocalPlayer.DisplayName
+end
+coroutine.wrap(YZUKIKX_fake_script)()
+local function TKDF_fake_script() -- UserId.LocalScript 
+	local script = Instance.new('LocalScript', UserId)
+
+	script.Parent.Text = game.Players.LocalPlayer.UserId
+end
+coroutine.wrap(TKDF_fake_script)()
